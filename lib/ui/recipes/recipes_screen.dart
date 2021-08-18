@@ -10,9 +10,11 @@ class RecipesPage extends StatelessWidget {
         title: Text('Recipes'),
       ),
       body: SafeArea(
-        child: Center(
-          child: Text('Recipes page'),
-        ),
+        child: Center(),
+      ),
+      floatingActionButton: FloatingActionButton(
+        child: Icon(Icons.restaurant),
+        onPressed: () {},
       ),
     );
   }
