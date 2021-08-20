@@ -14,10 +14,15 @@ dependencies:
 
   cupertino_icons: ^1.0.2
   get: ^4.3.8
+  retrofit: ^2.0.1
+  alice: ^0.2.4
+  dio: ^4.0.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  retrofit_generator: ^2.0.1
+  build_runner: ^2.1.1
 
 flutter:
 
